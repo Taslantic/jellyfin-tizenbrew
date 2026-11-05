@@ -1,0 +1,16 @@
+{
+  "name": "jellyfin-tizenbrew",
+  "appName": "Sagefire Media",
+  "version": "1.0.0",
+  "description": "Opens the Sagefire Media (Jellyfin) web client served by the NAS on Samsung Tizen TVs.",
+  "packageType": "mods",
+  "websiteURL": "http://192.168.4.37:8096/web/",
+  "main": "userScript.js",
+  "keys": [
+    "MediaPlayPause", "MediaPlay", "MediaPause", "MediaStop",
+    "MediaFastForward", "MediaRewind", "MediaTrackNext", "MediaTrackPrevious",
+    "ColorF0Red", "ColorF1Green", "ColorF2Yellow", "ColorF3Blue"
+  ],
+  "keywords": ["tizenbrew", "jellyfin"],
+  "license": "MIT"
+}
